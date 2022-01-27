@@ -84,37 +84,37 @@ def option_selector():
         print("[-] Invalid option. Abort!")
         sys.exit()
 
-    elif user_input is "1":
+    elif user_input == "1":
         username = input("[?] Enter your username: ")
         register(username)
         print("[!] Function completed! Aborting!")
         sys.exit()
 
-    elif user_input is "2":
+    elif user_input == "2":
         Private_Key = get_private_key()
         start(Private_Key)
         print("[!] Function completed! Aborting!")
         sys.exit()
 
-    elif user_input is "3":
+    elif user_input == "3":
         Public_Key = get_public_key()
         send(Public_Key)
         print("[!] Function completed! Aborting!")
         sys.exit()
 
-    elif user_input is "4":
+    elif user_input == "4":
         Public_Key = get_public_key()
         print("[+] Your Public Key is: " + Public_Key)
         print("[!] Function completed! Aborting!")
         sys.exit()
 
-    elif user_input is "5":
+    elif user_input == "5":
         Private_Key = get_private_key()
         print("[+] Your Private Key is: " + Private_Key)
         print("[!] Function completed! Aborting!")
         sys.exit()
 
-    elif user_input is "6":
+    elif user_input == "6":
         print("[!] Exiting!")
         sys.exit()
 
