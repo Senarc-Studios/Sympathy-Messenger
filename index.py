@@ -121,3 +121,5 @@ def option_selector():
     else:
         print("[-] Invalid option. Abort!")
         sys.exit()
+
+option_selector()
